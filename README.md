@@ -1,5 +1,5 @@
 # SBCL-Temp-Repo
-This is a template repo for new projects within HKUST Smart Building and Construction Lab, especially when you need to coordinate with others.  
+This is a template repo for new projects within HKUST Smart Building and Construction Lab, especially when you need to work together with others. You are REQUIRED to use Github for code sharing, co-development, and project management. 
 
 You are suggested to use this template to create a new repository for your project. [Here](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) is how.
 
@@ -33,6 +33,8 @@ You are suggested to use this template to create a new repository for your proje
 
 - Test your code before you push it to this repo. Why both and how? See the Test-Driven Development (TDD) and unit test session in [Code Development](#code-development).
     - Learn what is [Test-driven development](https://www.xenonstack.com/blog/test-driven-development-python)
+        - For project leaders: save your trouble to review the code, and avoid one unnoticed change mess up the whole project.
+        - For team members: help them know what exactly you want, and help them to validate their codes.
     - Unit test in Python
         - [Blog](https://machinelearningmastery.com/a-gentle-introduction-to-unit-testing-in-python/)
         - [Video](https://www.youtube.com/watch?v=6tNS--WetLI)
@@ -44,12 +46,14 @@ You are suggested to use this template to create a new repository for your proje
 - Your job is to 
     - Divide the whole task into sub-tasks.
     - Clearly define what each sub-task is.
-    - Think about how to check whether each sub-task is correctly implemented. Test-driven development can help, if you do not want to review the code line by line.
+    - Think about how to check whether each sub-task is correctly implemented.
+        - Test-driven development can help, if you do not want to review the code line by line.
 - TODOs
     - Make sure everyone is on the same page.
-    - Clearly let others know what you want from them.
+    - Clearly let your team members know what you want from them.
     - The more strickly you follow the above workflow, the easier for you to manage the project.
     - The more detailed you define each sub-task and the interface between two members (e.g. the inputs, and outputs), like [this](/utils/gradientDescent.py), the easier it would be when you put every piece of the work together.
+    - The larger the team you manage, the more strictly you need to follow the above workflow.
 
 ## Structure
 
